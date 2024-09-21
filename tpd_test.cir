@@ -7,6 +7,7 @@
 * Include SkyWater sky130 device models
 .lib "/data02/ECE4203/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice" tt
 
+.temp 27
 .param cpar=0.1f
 .param fanout=1
 

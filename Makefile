@@ -13,4 +13,4 @@ run: tpd_test_template.cir
 	     -e "s/CELLINPUTSVALUE/$(cell_inputs)/g" \
 	     -e "s/TEMPVALUE/$(temp)/g" \
 	     tpd_test_template.cir > tpd_test.cir
-	/data02/ECE4203/bin/ngspice tpd_test.cir
+	LD_LIBRARY_PATH=/data02/ECE4203/lib /data02/ECE4203/bin/ngspice tpd_test.cir

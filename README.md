@@ -35,8 +35,11 @@ From our simulations of the propagation delays with different fanouts, you will 
 ### Propagation delay equation
 
 Our simplified equation for the propagation delay will be:
+
 $$t_{pd,rise} = t_{0,rise} + K_{rise} (C_{par}+FC_{input})$$
+
 and
+
 $$t_{pd,fall} = t_{0,fall} + K_{fall} (C_{par}+FC_{input})$$
 
 Where $t_0$ is the intrinsic delay, $C_{par}$ is the parasitic capacitance (due to the wiring), F is the fanout, $C_{input}$ is the input capacitance of the fanout loads, and K is in (psec/fF) and measures the increase is delay per fF of loading.

@@ -29,7 +29,7 @@ $$Period = N(t_{pd,rise}+t_{pd,fall})$$
 The ring oscillator in the simulations you will run consists of 11 stages.  Each stage consists of one of the standard cells we are measuring, along with the capacitive loading and the fanout loading.  Note that we need to make the gates we are testing act like inverters by setting the other gate inputs to the right voltage.  This is explained more later.
 
 ### Fanout
-In most digital circuits, a single gate's output will be connected to many inputs on many other gates in the design.  Every input presents a capacitive load to the output driving it.  Fanout is a measure of how many gates are driven by an output; for example, if a NAND gate has a fanout of 5, it means that it's output is driving 5 other inputs.  Since high fanout means higher capacitance, the switching speed will get slower.  Managing fanout and maintaining the required logic speed is a critical task of the digital tools.
+In most digital circuits, a single gate's output will be connected to many inputs on many other gates in the design.  Every input presents a capacitive load to the output driving it.  Fanout is a measure of how many gates are driven by an output; for example, if a NAND gate has a fanout of 3, as shown below, it means that it's output is driving 3 other inputs.  Since high fanout means higher capacitance, the switching speed will get slower.  Managing fanout and maintaining the required logic speed is a critical task of the digital tools.
 
 From our simulations of the propagation delays with different fanouts, you will be able to find the capacitance of each fanout load, $C_{input}$.
 
@@ -184,10 +184,15 @@ $t_{0,fall}$ = 8.86 psec
 
 ## Additional Questions
 
+![Layout of Logic Cells](./images/gate_layouts.png)
+
  1. Even though the nand2_8 has a much higher drive strength than the nand2_2, why is the ring-oscillator frequency almost the same for both of them.
  2. Why do you think $K_{rise}$ is generally always larger than $K_{fall}$.
  3. Why does the nor2_2 gate have higher $K_{rise}$ than the nand2_2 gate?
- 4. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of two nor2_2, a nand2_2, and an inv_2?
+ 4. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of three nor2_2, and a nand2_2, as shown below?
+
+![Compound logic gate](./images/4inp_nor.png)
+
 
 > Written with [StackEdit](https://stackedit.io/).
 

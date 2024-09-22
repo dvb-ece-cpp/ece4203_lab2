@@ -33,6 +33,8 @@ In most digital circuits, a single gate's output will be connected to many input
 
 From our simulations of the propagation delays with different fanouts, you will be able to find the capacitance of each fanout load, $C_{input}$.
 
+![Fanout of three](./images/fan-out-of-logic-gates-1.gif)
+
 ### Propagation delay equation
 
 Our simplified equation for the propagation delay will be:

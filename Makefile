@@ -1,7 +1,7 @@
 # Define the Makefile variables for the four arguments
 cell ?= nand2_2
 cell_inputs ?= in pull_up
-cpar ?= 0.1f
+cpar ?= 1f
 fanout ?= 1
 temp ?= 27
 

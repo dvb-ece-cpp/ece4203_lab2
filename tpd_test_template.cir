@@ -1,4 +1,6 @@
 * Ring Oscillator test circuit for Standard Cell Characterization
+* ECE 4203 / Prof. Van Blerkom
+*
 .option scale=1E-6
 
 * Include the SkyWater Standard Cells
@@ -105,8 +107,10 @@ VSS VGND 0 0
 .control
     tran 10p 30n 
     meas tran period TRIG v(out11) td=15n VAL=0.9 RISE=1 TARG v(out11) td=15n VAL=0.9 RISE=2
-    meas tran tpd_rise TRIG v(out10) td=15n VAL=0.9 FALL=1 TARG v(out11) td=15n VAL=0.9 RISE=1
-    meas tran tpd_fall TRIG v(out10) td=15n VAL=0.9 RISE=1 TARG v(out11) td=15n VAL=0.9 FALL=1
+    meas tran start_inrise WHEN v(out10)=0.1 td=15n RISE=1
+    meas tran start_infall WHEN v(out10)=1.7 td=15n FALL=1
+    meas tran tpd_rise TRIG v(out10) td='start_infall' VAL=0.9 FALL=1 TARG v(out11) td='start_infall' VAL=0.9 RISE=1
+    meas tran tpd_fall TRIG v(out10) td='start_inrise' VAL=0.9 RISE=1 TARG v(out11) td='start_inrise' VAL=0.9 FALL=1
     plot v(out10) v(out11) 
 .endc
 

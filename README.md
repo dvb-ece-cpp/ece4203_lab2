@@ -2,7 +2,7 @@
 Lab 2: Spice Simulation of Standard Cell Propagation Delays
 </h1>
 <p align="center">
-Department of Electrical and Computer Engineering, Cal Poly Pomona
+ECE 4203
 </p>
 
 ## Overview

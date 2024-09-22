@@ -24,7 +24,7 @@ The SPICE simulation you will do is of a ring-oscillator.  A ring-oscillator con
 The period of the oscillation is related to the delay through the stages and the number of stages N, as follows:
 $$Period = N(t_{pd,rise}+t_{pd,fall})$$
 
-![Three-stage ring oscillator](https://www.iitg.ac.in/cseweb/vlab/vlsi/images/3.1.png)
+![Three-stage ring oscillator](./images/ring_oscillator_3stage.png)
 
 The ring oscillator in the simulations you will run consists of 11 stages.  Each stage consists of one of the standard cells we are measuring, along with the capacitive loading and the fanout loading.  Note that we need to make the gates we are testing act like inverters by setting the other gate inputs to the right voltage.  This is explained more later.
 

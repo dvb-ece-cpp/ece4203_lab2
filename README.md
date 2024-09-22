@@ -189,14 +189,16 @@ to the following questions:
 
  1. Using the layout key and layouts shown in the image below, match the layout to the appropriate logic gate in the table below:
 
-<p align="center">
+<center>
+	
 | Gate Layout | INV | NAND2 | NOR2 | NAND3 |
 |--|--|--|--|--|
 | (a) |  |  |  |  |
 | (b) |  |  |  |  |
 | (c) |  |  |  |  |
 | (d) |  |  |  |  |
-</p>
+
+</center>
 
 ![Layout of Logic Cells](./images/gate_layouts.png)
 

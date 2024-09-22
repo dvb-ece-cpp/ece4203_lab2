@@ -2,9 +2,6 @@
 Lab 2: Spice Simulation of Standard Cell Propagation Delays
 </h1>
 <p align="center">
-Prof. Daniel Van Blerkom
-</p>
-<p align="center">
 Department of Electrical and Computer Engineering, Cal Poly Pomona
 </p>
 
@@ -189,24 +186,25 @@ to the following questions:
 
  1. Using the layout key and layouts shown in the image below, match the layout to the appropriate logic gate in the table below:
 
+<p align="center">
 | Gate Layout | INV | NAND2 | NOR2 | NAND3 |
 |--|--|--|--|--|
 | (a) |  |  |  |  |
 | (b) |  |  |  |  |
 | (c) |  |  |  |  |
 | (d) |  |  |  |  |
+</p>
 
 ![Layout of Logic Cells](./images/gate_layouts.png)
 
- 1. Even though the nand2_8 has a much higher drive strength than the nand2_2, why is the ring-oscillator frequency almost the same for both of them.
- 2. Why do you think $K_{rise}$ is generally always larger than $K_{fall}$.
- 3. Why does the nor2_2 gate have higher $K_{rise}$ than the nand2_2 gate?
- 4. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of three nor2_2, and a nand2_2, as shown below?
+ 2. Even though the nand2_8 has a much higher drive strength than the nand2_2, why is the ring-oscillator frequency almost the same for both of them.
+ 3. Why do you think $K_{rise}$ is generally always larger than $K_{fall}$.
+ 4. Why does the nor2_2 gate have higher $K_{rise}$ than the nand2_2 gate?
+ 5. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of three nor2_2, and a nand2_2, as shown below?
 
 ![Compound logic gate](./images/4inp_nor.png)
 
 
-> Written with [StackEdit](https://stackedit.io/).
 
 
 

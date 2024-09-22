@@ -182,7 +182,19 @@ $t_{0,rise}$ = 13.57 psec
 and
 $t_{0,fall}$ = 8.86 psec
 
-## Additional Questions
+## Lab Deliverables
+
+Organize and submit your tables and calculations for the standard cell simulations above in a PDF on Gradescope, along with answers
+to the following questions:
+
+ 1. Using the layout key and layouts shown in the image below, match the layout to the appropriate logic gate in the table below:
+
+| Gate Layout | INV | NAND2 | NOR2 | NAND3 |
+|--|--|--|--|--|
+| (a) |  |  |  |  |
+| (b) |  |  |  |  |
+| (c) |  |  |  |  |
+| (d) |  |  |  |  |
 
 ![Layout of Logic Cells](./images/gate_layouts.png)
 

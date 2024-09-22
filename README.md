@@ -2,7 +2,7 @@
 Lab 2: Spice Simulation of Standard Cell Propagation Delays
 </h1>
 <p align="center">
-ECE 4203
+ECE 4203, Prof. Daniel Van Blerkom
 </p>
 
 ## Overview

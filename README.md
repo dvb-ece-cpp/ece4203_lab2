@@ -200,8 +200,8 @@ to the following questions:
 
  2. Even though the nand2_8 has a much higher drive strength than the nand2_2, why is the ring-oscillator frequency almost the same for both of them when cpar=1fF?
  3. Why do you think $K_{rise}$ is generally always larger than $K_{fall}$ in this cell library?
- 4. Why does the nor2_2 gate have higher $K_{rise}$ than the nand2_2 gate?
- 5. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of three nor2_2, and a nand2_2, as shown below?
+ 4. Why does the nor2_2 gate have different $K_{rise}$ than the nand2_2 gate?  Explain why it is lower or higher?
+ 5. Which is faster, a single nor4_2 gate, or a 4-input NOR created out of three nor2_2s and a nand2_2, as shown below?  You can assume cpar=1fF for the wiring.
 
 ![Compound logic gate](./images/4inp_nor.png)
 

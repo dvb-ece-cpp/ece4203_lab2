@@ -49,16 +49,16 @@ Note that the values will be different depending on if the output is rising or f
 ## Procedure
 
 ### Clone the assignment from GitHub
-Just like you did for Lab 1, you will accept the assignment on GitHub Classroom, then use "git clone" to copy the files to your HPC account.
+Just like you did for Lab 1, you will use "git clone" to copy the files to your HPC account.
 
 Make sure you are in your home directory before you use "git clone" - you can do this by typing
 
 	cd
 by itself; if you don't indicate a directory to change into, cd will put you in your home directory.  Then type
 
-	git clone ssh://git@ssh.github.com:443/dvb-ece-cpp/lab-2-(your github id).git
+	git clone https://github.com/dvb-ece-cpp/ece4203_lab2.git
 
-If everything works, you should have a new directory called "lab-2-(your github id)".  cd into that directory to do the simulations.
+If everything works, you should have a new directory called "ece4203_lab2".  cd into that directory to do the simulations.
 
 ### The Skywater Standard Cells
 

@@ -123,9 +123,9 @@ Run simulations for six standard cells:
 
  1. nand2_2
  2. nand2_8
- 3. nor2_2
- 4. nor4_2 (note, it has four inputs)
- 5. xor2_2
+ 3. nor2_8
+ 4. nor4_4 (note, it has four inputs)
+ 5. xnor2_4
  6. your choice (make sure it will act as an inverter, i.e. you can't choose an AND or OR gate!)
 
 Find the values for $t_{pd,rise}$ and $t_{pd,fall}$ for the following conditions:
